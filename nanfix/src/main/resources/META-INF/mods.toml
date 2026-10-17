@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="nanfix"
+version="1.0.0"
+displayName="NaN Fix"
+description='''
+Исправляет NaN (и Infinity) в здоровье, максимальном здоровье, поглощении,
+сытости, уроне и лечении. Сущность с NaN-здоровьем получает нормальное значение.
+'''
+
+[[dependencies.nanfix]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.nanfix]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
